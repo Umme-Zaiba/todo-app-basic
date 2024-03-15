@@ -9,7 +9,6 @@ const TodoList = ({ todos, settodos, setEditTodo }) => {
             )
         );
     };
-
     const handleEdit = (id) => {
         const findTodo = todos.find((todo) => todo.id === id);
         setEditTodo(findTodo);
